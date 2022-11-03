@@ -1,5 +1,9 @@
 # Issue with clang-tidy check: hicpp-signed-bitwise
 
+## Status: FIXED
+
+Fixed in `dc90c4358108b5829ee718f195034c896018108c`
+
 ## Build
 
 ```
