@@ -1,0 +1,10 @@
+// Example IDL file
+
+namespace Example;
+
+table Obj {
+  name:string;
+  value:short;
+}
+
+root_type Obj;
