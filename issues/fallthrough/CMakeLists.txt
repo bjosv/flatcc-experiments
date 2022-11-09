@@ -7,7 +7,9 @@ set(install_dir ${CMAKE_CURRENT_BINARY_DIR}/install)
 ExternalProject_Add(flatcc_proj
   PREFIX flatcc
   GIT_REPOSITORY  https://github.com/dvidelabs/flatcc
-  GIT_TAG         v0.6.1
+  # GIT_TAG         v0.6.1
+  # Corrected in:
+  GIT_TAG         e5be5bec4442382c42e9a07c664d20b79946b545
 
   CMAKE_ARGS
     "-DBUILD_SHARED_LIBS=on"

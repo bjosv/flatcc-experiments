@@ -1,6 +1,6 @@
 # Issue with fallthrough and Boost
 
-## Status:
+## Status: FIXED
 
 https://github.com/dvidelabs/flatcc/issues/247
 
